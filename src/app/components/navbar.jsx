@@ -43,7 +43,7 @@ return (
             <li className="hover:text-[#FFC3CB] cursor-pointer">Home</li>
         </Link>
         <Link href={"/about"}>
-            <li className="hover:text-[#FFC3CB] cursor-pointer">About</li>
+            <li className="hover:text-[#FFC3CB] cursor-pointer">About Me</li>
         </Link>
         <Link href={"/education"}>
             <li className="hover:text-[#FFC3CB] cursor-pointer">Education</li>
