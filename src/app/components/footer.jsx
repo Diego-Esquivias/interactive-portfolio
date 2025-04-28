@@ -11,15 +11,15 @@ const Footer = () => {
         <div className="flex justify-center space-x-6 my-4 text-lg">
             <FaGithub 
             size={30} 
-            className="cursor-pointer hover:text-[#FFC3CB] transform transition-transform duration-300 ease-in-out hover:scale-120" 
+            className="cursor-pointer hover:text-[#D8B4A6] transform transition-transform duration-300 ease-in-out hover:scale-120" 
             />
             <FaXTwitter 
             size={30} 
-            className="cursor-pointer hover:text-[#FFC3CB] transform transition-transform duration-300 ease-in-out hover:scale-120" 
+            className="cursor-pointer hover:text-[#D8B4A6] transform transition-transform duration-300 ease-in-out hover:scale-120" 
             />
             <FaYoutube
             size={30} 
-            className="cursor-pointer hover:text-[#FFC3CB] transform transition-transform duration-300 ease-in-out hover:scale-120" 
+            className="cursor-pointer hover:text-[#D8B4A6] transform transition-transform duration-300 ease-in-out hover:scale-120" 
             />
         </div>
         <p className="text-sm text-gray-400">© {new Date().getFullYear()} All rights reserved.</p>

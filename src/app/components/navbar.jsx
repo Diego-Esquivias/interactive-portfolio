@@ -12,9 +12,9 @@ return (
     <>
     <div className="flex justify-between items-center text-4xl px-4 font-extrabold py-4">
         <h1>• Home</h1>
-        <h1 className="text-[#FFC3CB]">Diego Esquivias</h1>
+        <h1 className="text-[#D8B4A6]">Diego Esquivias</h1>
         <HiOutlineMenu 
-        className="cursor-pointer hover:text-[#FFC3CB]" 
+        className="cursor-pointer hover:text-[#D8B4A6]" 
         size={50} 
         onClick={() => setIsSidebarOpen(true)} 
         />
@@ -34,25 +34,25 @@ return (
         <h2 className="text-xl font-bold">Menu</h2>
         <IoClose 
             size={30} 
-            className="cursor-pointer hover:text-[#FFC3CB]" 
+            className="cursor-pointer hover:text-[#D8B4A6]" 
             onClick={() => setIsSidebarOpen(false)} 
         />
         </div>
         <ul className="p-4 space-y-4 text-lg font-semibold text-center">
         <Link href={"/"}>
-            <li className="hover:text-[#FFC3CB] cursor-pointer">Home</li>
+            <li className="hover:text-[#D8B4A6] cursor-pointer">Home</li>
         </Link>
         <Link href={"/about"}>
-            <li className="hover:text-[#FFC3CB] cursor-pointer">About Me</li>
+            <li className="hover:text-[#D8B4A6] cursor-pointer">About Me</li>
         </Link>
         <Link href={"/education"}>
-            <li className="hover:text-[#FFC3CB] cursor-pointer">Education</li>
+            <li className="hover:text-[#D8B4A6] cursor-pointer">Education</li>
         </Link>
         <Link href={"/projects"}>
-            <li className="hover:text-[#FFC3CB] cursor-pointer">Projects</li>
+            <li className="hover:text-[#D8B4A6] cursor-pointer">Projects</li>
         </Link>
         <Link href={"/contacts"}>
-            <li className="hover:text-[#FFC3CB] cursor-pointer">Contact</li>
+            <li className="hover:text-[#D8B4A6] cursor-pointer">Contact</li>
         </Link>
         </ul>
     </div>
