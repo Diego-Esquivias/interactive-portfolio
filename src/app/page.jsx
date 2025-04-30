@@ -12,10 +12,13 @@ export default function Home() {
     {/* Main Content */}
     <br />
 
-    <div className="text-center">
-      <span>
-        Welcome To My Portfolio • Welcome To My Portfolio • Welcome To My Portfolio •
-      </span>
+    <div className="marquee font-bold">
+      <div className="marquee__inner " aria-hidden="true">
+        <span>Welcome To My Portfolio • </span>
+        <span>Welcome To My Portfolio • </span>
+        <span>Welcome To My Portfolio • </span>
+        <span>Welcome To My Portfolio • </span>
+      </div>
     </div>
 
     <div className="text-center">

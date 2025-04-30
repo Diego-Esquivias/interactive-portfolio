@@ -5,10 +5,14 @@ import Link from "next/link";
 const aboutMe = () => {
   return (
     <>
-    <div className="text-center">
-      <span>
-      About Me • About Me •  About Me • About Me • 
-      </span>
+
+    <div className="marquee font-bold">
+      <div className="marquee__inner " aria-hidden="true">
+        <span>About Me • </span>
+        <span>About Me • </span>
+        <span>About Me • </span>
+        <span>About Me • </span>
+      </div>
     </div>
 
     <div className="text-center">
@@ -131,8 +135,8 @@ const aboutMe = () => {
 
     {/* Contact Section */}
     <h1 className='m-auto text-center text-4xl'>Have Any Questions?</h1>
-    <div className='text-center mx-auto w-3/4'>
-      <Link href={'/'} className='bg-[#D8B4A6] text-black'>
+    <div className='text-center mx-auto w-3/4 mt-10 text-2xl'>
+      <Link href={'/'} className='bg-[#D8B4A6] text-black p-4 rounded-3xl font-bold transform transition-all duration-300 ease-in-out hover:bg-[#6D696A]'>
         Contact Me
       </Link>
     </div>

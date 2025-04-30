@@ -48,7 +48,7 @@ return (
         <Link href={"/education"}>
             <li className="hover:text-[#D8B4A6] cursor-pointer">Education</li>
         </Link>
-        <Link href={"/projects"}>
+        <Link href={"/work"}>
             <li className="hover:text-[#D8B4A6] cursor-pointer">Projects</li>
         </Link>
         <Link href={"/contacts"}>
