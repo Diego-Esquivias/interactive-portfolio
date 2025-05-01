@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from "next/image";
+import Link from "next/link";
 
 const page = () => {
   return (
@@ -27,19 +28,19 @@ const page = () => {
 
     {/* Section Main Version */}
     <div className='w-full grid grid-cols-2 grid-rows-1 justify-items-center'>
-      <div>
+      <Link href={'https://diego-esquivias.github.io/Calculator-Assignment/'} target='_blank' className='grid justify-items-stretch'>
         <Image
-        src={"https://res.cloudinary.com/dom4vyzw7/image/upload/v1745530659/second_black_suit_spider-man_1990_14_art_by_todd_mcfarlane_and_gregory_wright_zrqgwk.jpg"}
+        src={"https://res.cloudinary.com/dom4vyzw7/image/upload/v1746131397/calculator_ltfujq.png"}
         alt="placeholder Image"
         width={400}
         height={400}
-        className="m-auto rounded-2xl"
+        className="m-auto rounded-2xl shadow-glow transform transition-all duration-300 ease-in-out hover:shadow-glow-move hover:scale-105"
         />
-      </div>
+      </Link>
       <div className='grid justify-items-start'>
-        <h1 className='text-4xl font-bold text-[#D8B4A6]'>Project Name</h1>
+        <h1 className='text-4xl font-bold text-[#D8B4A6]'>Calculator</h1>
         <hr />
-        <h2 className='text-2xl text-[#D8B4A6]'>2021-2025</h2>
+        <h2 className='text-2xl text-[#D8B4A6]'>Deployed on Apr 22, 2024</h2>
 
         <div className='text-2xl bg-black p-5 w-3/4 rounded-2xl transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1 mt-35'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nostrum exercitationem assumenda, illum est atque omnis asperiores inventore. Repellat earum ullam consectetur vero, sunt voluptatum magni accusantium expedita a esse doloremque 
@@ -53,22 +54,99 @@ const page = () => {
     {/* Section Secondary Version */}
     <div className='w-full bg-[#D8B4A6] grid grid-cols-2 grid-rows-1 place-items-center'>
       <div className='grid justify-items-end'>
-        <h1 className='text-4xl font-bold text-black mt-10'>Project Name</h1>
+        <h1 className='text-4xl font-bold text-black mt-10'>Memory Card Game</h1>
         <hr />
-        <h2 className='text-2xl text-black'>2021-2025</h2>
+        <h2 className='text-2xl text-black'>Published on Dec 13, 2024</h2>
 
         <div className='text-2xl bg-black p-5 w-3/4 rounded-2xl transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v2-move shadow-v2 mt-35 mb-10'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nostrum exercitationem assumenda, illum est atque omnis asperiores inventore. Repellat earum ullam consectetur vero, sunt voluptatum magni accusantium expedita a esse doloremque 
         </div>
       </div>
-      <div>
+
+      <Link href={'https://desqui-memory-game.netlify.app/'} target='_blank' className='grid justify-items-stretch'>
         <Image
-        src={"https://res.cloudinary.com/dom4vyzw7/image/upload/v1745530659/second_black_suit_spider-man_1990_14_art_by_todd_mcfarlane_and_gregory_wright_zrqgwk.jpg"}
+        src={"https://res.cloudinary.com/dom4vyzw7/image/upload/v1746132598/memorygame_td8xu2.png"}
+        alt="placeholder Image"
+        width={500}
+        height={500}
+        className="m-auto rounded-2xl shadow-glowv2 transform transition-all duration-300 ease-in-out hover:shadow-glowv2-move hover:scale-105"
+        />
+      </Link>
+    </div>
+
+    <br />
+    <br />
+
+    {/* Section Main Version */}
+    <div className='w-full grid grid-cols-2 grid-rows-1 justify-items-center'>
+      <Link href={'https://desqui-tic-tac-toe.netlify.app/'} target='_blank' className='grid justify-items-stretch'>
+        <Image
+        src={"https://res.cloudinary.com/dom4vyzw7/image/upload/v1746132836/tictactoe_nhprgy.png"}
         alt="placeholder Image"
         width={400}
         height={400}
-        className="m-auto rounded-2xl"
+        className="m-auto rounded-2xl shadow-glow transform transition-all duration-300 ease-in-out hover:shadow-glow-move hover:scale-105"
         />
+      </Link>
+      <div className='grid justify-items-start'>
+        <h1 className='text-4xl font-bold text-[#D8B4A6]'>Tic-Tac-Toe Game</h1>
+        <hr />
+        <h2 className='text-2xl text-[#D8B4A6]'>Published on Dec 13, 2024.</h2>
+
+        <div className='text-2xl bg-black p-5 w-3/4 rounded-2xl transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1 mt-35'>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nostrum exercitationem assumenda, illum est atque omnis asperiores inventore. Repellat earum ullam consectetur vero, sunt voluptatum magni accusantium expedita a esse doloremque 
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <br />
+
+    {/* Section Secondary Version */}
+    <div className='w-full bg-[#D8B4A6] grid grid-cols-2 grid-rows-1 place-items-center'>
+      <div className='grid justify-items-end'>
+        <h1 className='text-4xl font-bold text-black mt-10'>Food Quiz Game</h1>
+        <hr />
+        <h2 className='text-2xl text-black'>Published on Dec 11, 2024</h2>
+
+        <div className='text-2xl bg-black p-5 w-3/4 rounded-2xl transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v2-move shadow-v2 mt-35 mb-10'>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nostrum exercitationem assumenda, illum est atque omnis asperiores inventore. Repellat earum ullam consectetur vero, sunt voluptatum magni accusantium expedita a esse doloremque 
+        </div>
+      </div>
+
+      <Link href={'https://desqui-food-quiz.netlify.app/'} target='_blank' className='grid justify-items-stretch'>
+        <Image
+        src={"https://res.cloudinary.com/dom4vyzw7/image/upload/v1746132992/quizgame_fbbvbt.png"}
+        alt="placeholder Image"
+        width={600}
+        height={600}
+        className="m-auto rounded-2xl shadow-glowv2 transform transition-all duration-300 ease-in-out hover:shadow-glowv2-move hover:scale-105"
+        />
+      </Link>
+    </div>
+
+    <br />
+    <br />
+
+    {/* Section Main Version */}
+    <div className='w-full grid grid-cols-2 grid-rows-1 justify-items-center'>
+      <Link href={'https://invisible-maze-game.netlify.app/'} target='_blank' className='grid justify-items-stretch'>
+        <Image
+        src={"https://res.cloudinary.com/dom4vyzw7/image/upload/v1746133865/mazegame_rod3fy.png"}
+        alt="placeholder Image"
+        width={500}
+        height={500}
+        className="m-auto rounded-2xl shadow-glow transform transition-all duration-300 ease-in-out hover:shadow-glow-move hover:scale-105"
+        />
+      </Link>
+      <div className='grid justify-items-start'>
+        <h1 className='text-4xl font-bold text-[#D8B4A6]'>Maze Game</h1>
+        <hr />
+        <h2 className='text-2xl text-[#D8B4A6]'>Published on Dec 13, 2024.</h2>
+
+        <div className='text-2xl bg-black p-5 w-3/4 rounded-2xl transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1 mt-35'>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nostrum exercitationem assumenda, illum est atque omnis asperiores inventore. Repellat earum ullam consectetur vero, sunt voluptatum magni accusantium expedita a esse doloremque 
+        </div>
       </div>
     </div>
     </>

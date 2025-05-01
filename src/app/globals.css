@@ -14,6 +14,10 @@
   --shadow-v1-move: -15px 15px #6D696A, 15px -15px #D8B4A6;
   --shadow-v2: 10px 10px white, -10px -10px #6D696A;
   --shadow-v2-move: -15px 15px #6D696A, 15px -15px white;
+  --shadow-glow: 0 0 50px 4px rgba(255, 255, 255, 0.5);
+  --shadow-glow-move: 0 0 50px 16px rgba(255, 255, 255, 0.6);
+  --shadow-glowv2: 0 0 50px 4px rgba(0, 0, 0, 0.5);
+  --shadow-glowv2-move: 0 0 50px 16px rgba(0, 0, 0, 0.7);
 }
 
 .marquee {
@@ -36,7 +40,7 @@
 
 .marquee span {
   font-size: 5vw;
-  padding: 0 2vw;
+  padding: 0 0 0 2vw;
 }
 
 @keyframes marquee {
