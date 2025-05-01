@@ -34,9 +34,9 @@ const aboutMe = () => {
         />
       </div>
       {/* Education */}
-      <div className='text-right w-3/4 mx-auto'>
+      <div className='grid justify-items-end w-3/4 mx-auto'>
         <h1 className='text-3xl font-extrabold text-[#D8B4A6]'>Education</h1>
-        <hr className='' />
+        <hr className='border-3 border-red w-1/2 rounded-full my-2' />
         <p className='text-lg text-[#D8B4A6]'>2021-2025</p>
         <p className='text-lg'>Sunnyslope Highschool</p>
         <p className='text-lg text-[#D8B4A6]'>2023-2025</p>
@@ -44,12 +44,12 @@ const aboutMe = () => {
       </div>
       {/* Description of Me */}
       <div className='text-xl text-center p-5 rounded-2xl transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1 w-3/4 mx-auto'>
-            <p>Hi, I'm Diego, a passionate web developer with a focus on creating intuitive and dynamic user experiences. I specialize in front-end development, working with modern tools like React, JavaScript, Tailwind, and CSS to build responsive, user-friendly websites.</p>
+            <p>Hi, I'm Diego, a passionate web developer with a focus on creating intuitive and dynamic user experiences. I specialize in front-end development, working with modern tools like React, JavaScript, Tailwind, NextJS, and CSS to build responsive, user-friendly websites.</p>
       </div>
       {/* Work Experience */}
-      <div className='text-right w-3/4 mx-auto'>
+      <div className='grid justify-items-end w-3/4 mx-auto'>
         <h1 className='text-3xl font-extrabold text-[#D8B4A6]'>Experience</h1>
-        <hr className='' />
+        <hr className='border-3 border-red w-1/2 rounded-full my-2' />
         <p className='text-lg text-[#D8B4A6]'>2021-2023</p>
         <p className='text-lg'>Interior/Exterior Car Detailer</p>
         <p className='text-lg text-[#D8B4A6]'>2021-2025</p>
