@@ -5,7 +5,7 @@ import Link from "next/link";
 const page = () => {
   return (
     <>
-    {/* <div className="marquee font-bold">
+    <div className="marquee font-bold">
       <div className="marquee__inner " aria-hidden="true">
         <span>My Work • </span>
         <span>My Work • </span>
@@ -14,17 +14,20 @@ const page = () => {
         <span>My Work • </span>
         <span>My Work • </span>
       </div>
-    </div> */}
-
-    <div className="text-center">
-      <span>
-      Past Projects • Past Projects • Past Projects • 
-      </span>
     </div>
 
-    <br />
-    <hr />
-    <br />
+    <div className="marquee font-bold">
+      <div className="marquee__innerv2 text-[#D8B4A6]" aria-hidden="true">
+        <span>Past Projects • </span>
+        <span>Past Projects • </span>
+        <span>Past Projects • </span>
+        <span>Past Projects • </span>
+        <span>Past Projects • </span>
+        <span>Past Projects • </span>
+      </div>
+    </div>
+
+    <hr className='border-gray-800 mt-10 mb-15' />
 
     {/* Section Main Version */}
     <div className='w-full grid grid-cols-2 grid-rows-1 justify-items-center'>

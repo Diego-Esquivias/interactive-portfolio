@@ -38,20 +38,17 @@ return (
             onClick={() => setIsSidebarOpen(false)} 
         />
         </div>
-        <ul className="p-4 space-y-4 text-lg font-semibold text-center">
+        <ul className="grid grid-cols-1 grid-rows-4 h-full place-items-center pb-20 text-3xl font-semibold text-center">
         <Link href={"/"}>
             <li className="hover:text-[#D8B4A6] cursor-pointer">Home</li>
         </Link>
         <Link href={"/about"}>
             <li className="hover:text-[#D8B4A6] cursor-pointer">About Me</li>
         </Link>
-        <Link href={"/education"}>
-            <li className="hover:text-[#D8B4A6] cursor-pointer">Education</li>
-        </Link>
         <Link href={"/work"}>
             <li className="hover:text-[#D8B4A6] cursor-pointer">Projects</li>
         </Link>
-        <Link href={"/contacts"}>
+        <Link href={"/contact"}>
             <li className="hover:text-[#D8B4A6] cursor-pointer">Contact</li>
         </Link>
         </ul>

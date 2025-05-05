@@ -15,45 +15,50 @@ const aboutMe = () => {
       </div>
     </div>
 
-    <div className="text-center">
-      <span>
-      Get to Know Me • Get to Know Me • Get to Know Me • 
-      </span>
+    <div className="marquee font-bold">
+      <div className="marquee__innerv2 text-[#D8B4A6]" aria-hidden="true">
+        <span>Get to Know Me • </span>
+        <span>Get to Know Me • </span>
+        <span>Get to Know Me • </span>
+        <span>Get to Know Me • </span>
+      </div>
     </div>
+
+    <hr className='border-gray-800 mt-10 mb-15' />
 
     {/* Section 1 */}
     {/* Profile of Me */}
     <div className='grid grid-cols-2 grid-rows-2 gap-8'>
       <div className='text-center'>
         <Image
-        src={"https://res.cloudinary.com/dom4vyzw7/image/upload/v1745530659/second_black_suit_spider-man_1990_14_art_by_todd_mcfarlane_and_gregory_wright_zrqgwk.jpg"}
+        src={"https://res.cloudinary.com/dom4vyzw7/image/upload/v1746477429/IMG_4633_hir7iu.jpg"}
         alt="placeholder Image"
-        width={200}
-        height={200}
+        width={300}
+        height={300}
         className="m-auto rounded-full border-2 border-[#6D696A]"
         />
       </div>
       {/* Education */}
       <div className='grid justify-items-end w-3/4 mx-auto'>
-        <h1 className='text-3xl font-extrabold text-[#D8B4A6]'>Education</h1>
+        <h1 className='text-4xl font-extrabold text-[#D8B4A6]'>Education</h1>
         <hr className='border-3 border-red w-1/2 rounded-full my-2' />
-        <p className='text-lg text-[#D8B4A6]'>2021-2025</p>
-        <p className='text-lg'>Sunnyslope Highschool</p>
-        <p className='text-lg text-[#D8B4A6]'>2023-2025</p>
-        <p className='text-lg'>West-MEC Northeast Campus</p>
+        <p className='text-2xl text-[#D8B4A6]'>2021-2025</p>
+        <p className='text-2xl'>Sunnyslope Highschool</p>
+        <p className='text-2xl text-[#D8B4A6]'>2023-2025</p>
+        <p className='text-2xl'>West-MEC Northeast Campus</p>
       </div>
       {/* Description of Me */}
-      <div className='text-xl text-center p-5 rounded-2xl transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1 w-3/4 mx-auto'>
+      <div className='text-2xl text-center p-5 rounded-2xl transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1 w-3/4 mx-auto'>
             <p>Hi, I'm Diego, a passionate web developer with a focus on creating intuitive and dynamic user experiences. I specialize in front-end development, working with modern tools like React, JavaScript, Tailwind, NextJS, and CSS to build responsive, user-friendly websites.</p>
       </div>
       {/* Work Experience */}
       <div className='grid justify-items-end w-3/4 mx-auto'>
-        <h1 className='text-3xl font-extrabold text-[#D8B4A6]'>Experience</h1>
+        <h1 className='text-4xl font-extrabold text-[#D8B4A6]'>Experience</h1>
         <hr className='border-3 border-red w-1/2 rounded-full my-2' />
-        <p className='text-lg text-[#D8B4A6]'>2021-2023</p>
-        <p className='text-lg'>Interior/Exterior Car Detailer</p>
-        <p className='text-lg text-[#D8B4A6]'>2021-2025</p>
-        <p className='text-lg'>Assistant Soccer Coach</p>
+        <p className='text-2xl text-[#D8B4A6]'>2021-2023</p>
+        <p className='text-2xl'>Interior/Exterior Car Detailer</p>
+        <p className='text-2xl text-[#D8B4A6]'>2021-2025</p>
+        <p className='text-2xl'>Assistant Soccer Coach</p>
       </div>
     </div>
 
@@ -62,12 +67,12 @@ const aboutMe = () => {
 
     {/* Section 2 */}
     <div className='w-full bg-[#D8B4A6] grid grid-cols-2 grid-rows-1 place-items-center'>
-      <div className='text-black font-extrabold text-7xl text-center p-10'>
+      <div className='text-black font-extrabold text-8xl text-center p-20'>
         Why I Choose To Pursue A Career In Coding
       </div>
       <div>
         <div className='text-2xl bg-black p-5 w-3/4 mx-auto rounded-2xl transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v2-move shadow-v2'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nostrum exercitationem assumenda, illum est atque omnis asperiores inventore. Repellat earum ullam consectetur vero, sunt voluptatum magni accusantium expedita a esse doloremque 
+          I have always loved using technology since I was a kid with my first console being the Nintendo Wii. As I got older I became fasinated with designing the front end aspects of webpages and wanting to make a game. I then joined the West-MEC coding program in hopes to further explore these interests of mine and to see what stuff can I learn that I wouldn't have known on my own. Overall, I chose to pursue a career in coding because it aligns with my interests and can push me to constantly improve on not only my technical skills, but on who I am as a leader and teammate.
         </div>
       </div>
     </div>
@@ -80,10 +85,10 @@ const aboutMe = () => {
       <div className='w-full grid grid-cols-2 grid-rows-1 place-items-center'>
         <div>
           <div className='text-2xl bg-black p-5 w-3/4 mx-auto rounded-2xl transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nostrum exercitationem assumenda, illum est atque omnis asperiores inventore. Repellat earum ullam consectetur vero, sunt voluptatum magni accusantium expedita a esse doloremque 
+            On my free time I do a variety of things. One of the things I do the most on my free time is listen to music from artists such as Kendrick Lamar, ASAP Rocky, J Cole, Travis Scott, and much more. Another thing I do with my free time is play video games with friends and family with the games being Fortnite, Marvel Rivals, Minecraft, Brawl Stars, Clash Royale, and many more. FInally you can find me spending my free time reading comic books from my favorite Marvel characters like Spider-Man, Moonknight, Ghost Rider, and more. 
           </div>
         </div>
-        <div className='font-extrabold text-7xl text-center p-10'>
+        <div className='font-extrabold text-8xl text-center p-10'>
           What I Do When I Have Free Time
         </div>
       </div>
