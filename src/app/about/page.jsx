@@ -48,7 +48,7 @@ const aboutMe = () => {
         <p className='text-2xl'>West-MEC Northeast Campus</p>
       </div>
       {/* Description of Me */}
-      <div  data-aos="fade-down-left" data-aos-duration="2000">
+      <div  data-aos="fade-down-right" data-aos-duration="2000">
         <div className='text-2xl text-center p-5 rounded-2xl transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1 w-3/4 mx-auto'>
               <p>Hi, I'm Diego, a passionate web developer with a focus on creating intuitive and dynamic user experiences. I specialize in front-end development, working with modern tools like React, JavaScript, Tailwind, NextJS, and CSS to build responsive, user-friendly websites.</p>
         </div>
@@ -72,7 +72,7 @@ const aboutMe = () => {
       <div className='text-black font-extrabold text-8xl text-center p-20'>
         Why I Choose To Pursue A Career In Coding
       </div>
-      <div>
+      <div data-aos="zoom-in-left" data-aos-duration="2000">
         <div className='text-2xl bg-black p-5 w-3/4 mx-auto rounded-2xl transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v2-move shadow-v2'>
           I have always loved using technology since I was a kid with my first console being the Nintendo Wii. As I got older I became fasinated with designing the front end aspects of webpages and wanting to make a game. I then joined the West-MEC coding program in hopes to further explore these interests of mine and to see what stuff can I learn that I wouldn't have known on my own. Overall, I chose to pursue a career in coding because it aligns with my interests and can push me to constantly improve on not only my technical skills, but on who I am as a leader and teammate.
         </div>
@@ -85,7 +85,7 @@ const aboutMe = () => {
     {/* Section 3 */}
     <div>
       <div className='w-full grid grid-cols-2 grid-rows-1 place-items-center'>
-        <div>
+        <div data-aos="zoom-in-right" data-aos-duration="2000">
           <div className='text-2xl bg-black p-5 w-3/4 mx-auto rounded-2xl transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1'>
             On my free time I do a variety of things. One of the things I do the most on my free time is listen to music from artists such as Kendrick Lamar, ASAP Rocky, J Cole, Travis Scott, and much more. Another thing I do with my free time is play video games with friends and family with the games being Fortnite, Marvel Rivals, Minecraft, Brawl Stars, Clash Royale, and many more. FInally you can find me spending my free time reading comic books from my favorite Marvel characters like Spider-Man, Moonknight, Ghost Rider, and more. 
           </div>
@@ -143,7 +143,7 @@ const aboutMe = () => {
     {/* Contact Section */}
     <h1 className='m-auto text-center text-4xl'>Have Any Questions?</h1>
     <div className='text-center mx-auto w-3/4 mt-10 text-2xl'>
-      <Link href={'/'} className='bg-[#D8B4A6] text-black p-4 rounded-3xl font-bold transform transition-all duration-300 ease-in-out hover:bg-[#6D696A]'>
+      <Link href={'/contact'} className='bg-[#D8B4A6] text-black p-4 rounded-3xl font-bold transform transition-all duration-300 ease-in-out hover:bg-[#6D696A]'>
         Contact Me
       </Link>
     </div>

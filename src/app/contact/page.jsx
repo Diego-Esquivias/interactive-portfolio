@@ -24,7 +24,7 @@ const sendEmail = (e) => {
 };
 
 return (
-    <form ref={form} onSubmit={sendEmail} className='bg-none border-2 border-[#6D696A] py-10 rounded-2xl text-white w-1/3 mx-auto grid grid-cols-1 grid-rows-5 place-items-center gap-y-2'>
+    <form ref={form} onSubmit={sendEmail} className='bg-none border-2 border-[#6D696A] py-10 rounded-2xl text-white w-1/3 mx-auto mt-15 grid grid-cols-1 grid-rows-5 place-items-center gap-y-2'>
         <h1 className='font-extrabold text-4xl'>Contact Form</h1>
         <div>
             <label className='text-xl'>Title: </label>
