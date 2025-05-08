@@ -29,7 +29,7 @@ const aboutMe = () => {
     {/* Section 1 */}
     {/* Profile of Me */}
     <div className='grid grid-cols-2 grid-rows-2 gap-8'>
-      <div className='text-center'>
+      <div className='text-center mb-4' data-aos="flip-down" data-aos-duration="2000">
         <Image
         src={"https://res.cloudinary.com/dom4vyzw7/image/upload/v1746477429/IMG_4633_hir7iu.jpg"}
         alt="placeholder Image"
@@ -39,22 +39,24 @@ const aboutMe = () => {
         />
       </div>
       {/* Education */}
-      <div className='grid justify-items-end w-3/4 mx-auto'>
+      <div className='grid justify-items-end w-3/4 mx-auto' data-aos="fade-down-left" data-aos-duration="2000">
         <h1 className='text-4xl font-extrabold text-[#D8B4A6]'>Education</h1>
-        <hr className='border-3 border-red w-1/2 rounded-full my-2' />
+        <hr className='border-3 w-1/2 rounded-full my-2' />
         <p className='text-2xl text-[#D8B4A6]'>2021-2025</p>
         <p className='text-2xl'>Sunnyslope Highschool</p>
         <p className='text-2xl text-[#D8B4A6]'>2023-2025</p>
         <p className='text-2xl'>West-MEC Northeast Campus</p>
       </div>
       {/* Description of Me */}
-      <div className='text-2xl text-center p-5 rounded-2xl transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1 w-3/4 mx-auto'>
-            <p>Hi, I'm Diego, a passionate web developer with a focus on creating intuitive and dynamic user experiences. I specialize in front-end development, working with modern tools like React, JavaScript, Tailwind, NextJS, and CSS to build responsive, user-friendly websites.</p>
+      <div  data-aos="fade-down-left" data-aos-duration="2000">
+        <div className='text-2xl text-center p-5 rounded-2xl transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1 w-3/4 mx-auto'>
+              <p>Hi, I'm Diego, a passionate web developer with a focus on creating intuitive and dynamic user experiences. I specialize in front-end development, working with modern tools like React, JavaScript, Tailwind, NextJS, and CSS to build responsive, user-friendly websites.</p>
+        </div>
       </div>
       {/* Work Experience */}
-      <div className='grid justify-items-end w-3/4 mx-auto'>
+      <div className='grid justify-items-end w-3/4 mx-auto' data-aos="fade-up-left" data-aos-duration="2000">
         <h1 className='text-4xl font-extrabold text-[#D8B4A6]'>Experience</h1>
-        <hr className='border-3 border-red w-1/2 rounded-full my-2' />
+        <hr className='border-3 w-1/2 rounded-full my-2' />
         <p className='text-2xl text-[#D8B4A6]'>2021-2023</p>
         <p className='text-2xl'>Interior/Exterior Car Detailer</p>
         <p className='text-2xl text-[#D8B4A6]'>2021-2025</p>

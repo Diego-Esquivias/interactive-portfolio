@@ -24,33 +24,30 @@ const sendEmail = (e) => {
 };
 
 return (
-    <form ref={form} onSubmit={sendEmail} className='bg-gray-500 py-10 rounded-2xl text-black w-1/2 mx-auto grid grid-cols-1 grid-rows-5 place-items-center'>
+    <form ref={form} onSubmit={sendEmail} className='bg-none border-2 border-[#6D696A] py-10 rounded-2xl text-white w-1/3 mx-auto grid grid-cols-1 grid-rows-5 place-items-center gap-y-2'>
+        <h1 className='font-extrabold text-4xl'>Contact Form</h1>
         <div>
-            <label>Title</label>
+            <label className='text-xl'>Title: </label>
             <input type="text" name="title" className='bg-white rounded-xl'/>
         </div>
-        <br />
 
         <div>
-            <label>Name</label>
+            <label>Name: </label>
             <input type="text" name="name" className='bg-white rounded-xl'/>
         </div>
-        <br />
 
         <div>
-            <label>Email</label>
+            <label>Email: </label>
             <input type="email" name="email" className='bg-white rounded-xl'/>
         </div>
-        <br />
 
         <div>
-            <label>Message</label>
+            <label>Message: </label>
             <textarea name="message" className='bg-white rounded-xl'/>
         </div>
-        <br />
 
         <div>
-            <button type="submit">Send</button>
+            <button type="submit" className='bg-[#D8B4A6] text-black text-lg py-1 px-6 rounded-full'>Send</button>
         </div>
     {/* <input type="submit" value="Send" /> */}
     </form>

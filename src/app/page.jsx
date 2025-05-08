@@ -29,7 +29,7 @@ export default function Home() {
     <hr className='border-gray-800 mt-10 mb-15' />
 
       {/* Place for the image Scroll thing */}
-      <div className="w-3/4 mx-auto mt-5">
+      <div className="w-3/4 mx-auto mt-5" data-aos="flip-up" data-aos-duration="2000">
         <Image
         src={"https://res.cloudinary.com/dom4vyzw7/image/upload/v1746477503/IMG_4638_jindgz.jpg"}
         alt="placeholder Image"
@@ -39,7 +39,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="grid grid-cols-2 grid-rows-2 gap-10 items-center justify-items-center mt-10">
+      <div className="grid grid-cols-2 grid-rows-2 gap-10 items-center justify-items-center mt-10" data-aos="zoom-in-left" data-aos-duration="2000">
         <div className="text-center w-3/4">
           <h1 className="text-5xl font-extrabold text-[#D8B4A6]">About Me</h1>
           <div className="text-xl text-center p-5 rounded-2xl mt-10 transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1">
@@ -51,7 +51,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div>
+        <div data-aos="flip-left" data-aos-duration="2000">
           <Image
           src={"https://res.cloudinary.com/dom4vyzw7/image/upload/v1745530659/second_black_suit_spider-man_1990_14_art_by_todd_mcfarlane_and_gregory_wright_zrqgwk.jpg"}
           alt="placeholder Image"
@@ -62,7 +62,7 @@ export default function Home() {
         </div>
 
         {/* Education Section */}
-        <div>
+        <div data-aos="flip-right" data-aos-duration="2000">
           <Image
           src={"https://res.cloudinary.com/dom4vyzw7/image/upload/v1746478136/difference-between-continuing-education-and-professional-development_small_nzdoh6.jpg"}
           alt="placeholder Image"
@@ -72,7 +72,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="text-center w-3/4">
+        <div className="text-center w-3/4" data-aos="zoom-in-left" data-aos-duration="2000">
           <h1 className="text-5xl font-extrabold text-[#D8B4A6]">Education</h1>
           <div className="text-xl text-center p-5 rounded-2xl mt-10 transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1">
             <p>I spent 4 years at Sunnyslope Highschool gaining crucial knowledge that will help me in my future. I took many classes in areas that interested during my highschool life such as Ap Computer Science Principles, Ap Precalc, and coding. 
