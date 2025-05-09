@@ -34,6 +34,8 @@
   display: flex;
   white-space: nowrap;
   animation: marquee 15s linear infinite;
+  color: transparent;
+  -webkit-text-stroke: .3vw rgb(255, 255, 255);
 }
 
 .marquee span {
@@ -56,6 +58,8 @@
   display: flex;
   white-space: nowrap;
   animation: marqueev2 15s linear infinite;
+  color: transparent;
+  -webkit-text-stroke: .3vw #D8B4A6;
 }
 
 @keyframes marqueev2 {
@@ -72,6 +76,11 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+.sideNav li:hover {
+  color: transparent;
+  -webkit-text-stroke: .1vw #D8B4A6;
 }
 
 body {

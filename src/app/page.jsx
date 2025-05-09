@@ -42,7 +42,7 @@ export default function Home() {
       <div className="grid grid-cols-2 grid-rows-2 gap-10 items-center justify-items-center mt-10" data-aos="zoom-in-left" data-aos-duration="2000">
         <div className="text-center w-3/4">
           <h1 className="text-5xl font-extrabold text-[#D8B4A6]">About Me</h1>
-          <div className="text-xl text-center p-5 rounded-2xl mt-10 transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1">
+          <div className="text-xl font-bold text-center p-5 rounded-2xl mt-10 transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1">
             <p>Hi, I'm Diego, a passionate web developer with a focus on creating intuitive and dynamic user experiences. I specialize in front-end development, working with modern tools like React, JavaScript, Tailwind, and CSS to build responsive, user-friendly websites.</p>
             <br />
             <p>What excites me the most is using my skills to solve real-world problems and bring ideas to life through code. When I'm not working on web projects, you can find me playing video games, reading comics, or spending time with people I love.</p>
@@ -53,10 +53,10 @@ export default function Home() {
 
         <div data-aos="flip-left" data-aos-duration="2000">
           <Image
-          src={"https://res.cloudinary.com/dom4vyzw7/image/upload/v1745530659/second_black_suit_spider-man_1990_14_art_by_todd_mcfarlane_and_gregory_wright_zrqgwk.jpg"}
+          src={"https://res.cloudinary.com/dom4vyzw7/image/upload/v1746828569/IMG_4643_z9ijlb.jpg"}
           alt="placeholder Image"
-          width={450}
-          height={450}
+          width={400}
+          height={400}
           className="m-auto rounded-2xl border-2 border-[#6D696A]"
           />
         </div>
@@ -64,7 +64,7 @@ export default function Home() {
         {/* Education Section */}
         <div data-aos="flip-right" data-aos-duration="2000">
           <Image
-          src={"https://res.cloudinary.com/dom4vyzw7/image/upload/v1746478136/difference-between-continuing-education-and-professional-development_small_nzdoh6.jpg"}
+          src={"https://res.cloudinary.com/dom4vyzw7/image/upload/v1746826580/IMG_4835_qovvyc_c_crop_w_3024_h_2500_gjkh4s.png"}
           alt="placeholder Image"
           width={650}
           height={650}
@@ -74,12 +74,14 @@ export default function Home() {
 
         <div className="text-center w-3/4" data-aos="zoom-in-left" data-aos-duration="2000">
           <h1 className="text-5xl font-extrabold text-[#D8B4A6]">Education</h1>
-          <div className="text-xl text-center p-5 rounded-2xl mt-10 transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1">
-            <p>I spent 4 years at Sunnyslope Highschool gaining crucial knowledge that will help me in my future. I took many classes in areas that interested during my highschool life such as Ap Computer Science Principles, Ap Precalc, and coding. 
+          <div className="text-xl font-bold text-center p-5 rounded-2xl mt-10 transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1">
+            <p>I spent four years at Sunnyslope High School, where I gained valuable knowledge and skills that will support my future academic and career goals. During my time there, I explored subjects that sparked my interest, including AP Computer Science Principles, AP Precalculus, and various coding-related courses.
             </ p>
             <br />
             <p>
-            During my time at Sunnyslope, I was told about West-MEC and how it prepared students for careers they wanted to pursue after highschool so I decided to take their coding program. During my time at West-MEC I was taught many professional and technical skills that will help me when finding a job in the coding area along with knowledge in various programming languages such as python, javascript, html, css, next js, react, and much much. Overall, I would highly recommend this program to other highschool students looking to get a head start in life after school.</p>
+            While at Sunnyslope, I learned about the West-MEC program, which helps students prepare for careers in their fields of interest. I chose to enroll in the coding program, where I developed both technical and professional skills essential for a career in software development. Through this program, I gained hands-on experience with multiple programming languages and technologies, including Python, JavaScript, HTML, CSS, Next.js, and React.</p>
+            <br />
+            <p>Overall, I highly recommend the West-MEC program to high school students who are looking to get a head start on their careers and gain real-world experience before graduation.</p>
           </div>
         </div>
 

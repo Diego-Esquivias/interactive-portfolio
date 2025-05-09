@@ -11,7 +11,7 @@ const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 return (
     <>
     <div className="sticky top-0 flex justify-between items-center text-4xl px-4 font-extrabold py-4 bg-black z-1 border-b-2 border-b-gray-800">
-        <h1>• Home</h1>
+        <h1>•</h1>
         <div>
             <h1 className="text-[#D8B4A6]">Diego Esquivias</h1>
         </div>
@@ -40,18 +40,18 @@ return (
             onClick={() => setIsSidebarOpen(false)} 
         />
         </div>
-        <ul className="grid grid-cols-1 grid-rows-4 h-full place-items-center pb-20 text-3xl font-semibold text-center">
+        <ul className="sideNav grid grid-cols-1 grid-rows-4 h-full place-items-center pb-20 text-4xl font-semibold text-center">
         <Link href={"/"}>
-            <li className="hover:text-[#D8B4A6] cursor-pointer">Home</li>
+            <li className="cursor-pointer">Home</li>
         </Link>
         <Link href={"/about"}>
-            <li className="hover:text-[#D8B4A6] cursor-pointer">About Me</li>
+            <li className="cursor-pointer">About Me</li>
         </Link>
         <Link href={"/work"}>
-            <li className="hover:text-[#D8B4A6] cursor-pointer">Projects</li>
+            <li className="cursor-pointer">Projects</li>
         </Link>
         <Link href={"/contact"}>
-            <li className="hover:text-[#D8B4A6] cursor-pointer">Contact</li>
+            <li className="cursor-pointer">Contact</li>
         </Link>
         </ul>
     </div>
