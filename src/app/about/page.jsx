@@ -73,8 +73,8 @@ const aboutMe = () => {
         Why I Choose To Pursue A Career In Coding
       </div>
       <div data-aos="zoom-in-left" data-aos-duration="2000">
-        <div className='text-2xl bg-black p-5 w-3/4 mx-auto rounded-2xl transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v2-move shadow-v2'>
-          I have always loved using technology since I was a kid with my first console being the Nintendo Wii. As I got older I became fasinated with designing the front end aspects of webpages and wanting to make a game. I then joined the West-MEC coding program in hopes to further explore these interests of mine and to see what stuff can I learn that I wouldn't have known on my own. Overall, I chose to pursue a career in coding because it aligns with my interests and can push me to constantly improve on not only my technical skills, but on who I am as a leader and teammate.
+        <div className='text-2xl text-center bg-black p-5 w-3/4 mx-auto rounded-2xl transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v2-move shadow-v2'>
+          My passion for technology began at a young age, starting with my first console—the Nintendo Wii. Over time, this interest evolved into a fascination with front-end web design and game development. To explore these areas further, I enrolled in the West-MEC coding program, where I've been able to deepen my knowledge and gain exposure to concepts and tools I may not have discovered on my own. Pursuing a career in coding allows me to align my work with what I love while continuously challenging myself to grow—not just as a developer, but also as a leader and collaborative teammate.
         </div>
       </div>
     </div>
@@ -86,8 +86,8 @@ const aboutMe = () => {
     <div>
       <div className='w-full grid grid-cols-2 grid-rows-1 place-items-center'>
         <div data-aos="zoom-in-right" data-aos-duration="2000">
-          <div className='text-2xl bg-black p-5 w-3/4 mx-auto rounded-2xl transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1'>
-            On my free time I do a variety of things. One of the things I do the most on my free time is listen to music from artists such as Kendrick Lamar, ASAP Rocky, J Cole, Travis Scott, and much more. Another thing I do with my free time is play video games with friends and family with the games being Fortnite, Marvel Rivals, Minecraft, Brawl Stars, Clash Royale, and many more. FInally you can find me spending my free time reading comic books from my favorite Marvel characters like Spider-Man, Moonknight, Ghost Rider, and more. 
+          <div className='text-2xl text-center bg-black p-5 w-3/4 mx-auto rounded-2xl transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1'>
+          In my free time, I enjoy a range of activities that help me unwind and stay inspired. I often listen to music from artists such as Kendrick Lamar, A$AP Rocky, J. Cole, Travis Scott, and others whose creativity influences my own. I also enjoy playing video games with friends and family—favorites include Fortnite, Marvel Rivals, Minecraft, Brawl Stars, and Clash Royale. Additionally, I'm an avid reader of comic books, especially stories featuring Marvel characters like Spider-Man, Moon Knight, and Ghost Rider.
           </div>
         </div>
         <div className='font-extrabold text-8xl text-center p-10'>
@@ -103,14 +103,25 @@ const aboutMe = () => {
     <div className='w-full grid grid-cols-3 grid-rows-1 place-items-center'>
       <div className='text-center text-3xl'>
         <Image
-        src={"https://res.cloudinary.com/dom4vyzw7/image/upload/v1745530659/second_black_suit_spider-man_1990_14_art_by_todd_mcfarlane_and_gregory_wright_zrqgwk.jpg"}
+        src={"https://res.cloudinary.com/dom4vyzw7/image/upload/v1746821246/IMG_3098_g0gj7f.png"}
         alt="placeholder Image"
         width={300}
         height={300}
+        className="m-auto rounded-2xl border-white border-2"
+        />
+        <br />
+        Collect
+      </div>
+      <div className='text-center text-3xl'>
+        <Image
+        src={"https://res.cloudinary.com/dom4vyzw7/image/upload/v1746821467/mixcollage-11-dec-2024-08-46-am-3822_tdo59e.avif"}
+        alt="placeholder Image"
+        width={275}
+        height={275}
         className="m-auto rounded-2xl"
         />
         <br />
-        Title of Hobby
+        Game
       </div>
       <div className='text-center text-3xl'>
         <Image
@@ -121,18 +132,7 @@ const aboutMe = () => {
         className="m-auto rounded-2xl"
         />
         <br />
-        Title of Hobby
-      </div>
-      <div className='text-center text-3xl'>
-        <Image
-        src={"https://res.cloudinary.com/dom4vyzw7/image/upload/v1745530659/second_black_suit_spider-man_1990_14_art_by_todd_mcfarlane_and_gregory_wright_zrqgwk.jpg"}
-        alt="placeholder Image"
-        width={300}
-        height={300}
-        className="m-auto rounded-2xl"
-        />
-        <br />
-        Title of Hobby
+        Music
       </div>
     </div>
 

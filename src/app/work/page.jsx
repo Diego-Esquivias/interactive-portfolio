@@ -49,7 +49,7 @@ const page = () => {
         
         <div data-aos="zoom-in" data-aos-duration="2000">
           <div className='text-2xl bg-black p-5 w-3/4 rounded-2xl transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1 mt-35'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nostrum exercitationem assumenda, illum est atque omnis asperiores inventore. Repellat earum ullam consectetur vero, sunt voluptatum magni accusantium expedita a esse doloremque 
+            Made this website during my first year at West-MEC. It consisted of mostly javascript and html with some css to make it look like an actual calculator. I feel like this project helped me learn how to manipulate strings and how to use the Math library to make sure that it provides an accurate calculation all the time.
           </div>
         </div>
       </div>
@@ -69,7 +69,7 @@ const page = () => {
 
         <div className='grid justify-items-end' data-aos="zoom-in" data-aos-duration="2000">
           <div className='text-2xl bg-black p-5 w-3/4 rounded-2xl transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v2-move shadow-v2 mt-35 mb-10'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nostrum exercitationem assumenda, illum est atque omnis asperiores inventore. Repellat earum ullam consectetur vero, sunt voluptatum magni accusantium expedita a esse doloremque 
+            This game was also made during my first year at West-MEC and its on of my favorites in terms how how addicting it is to play. This one had more html than javascript because of how many times I had to repeat the div to make all 30 cards appear on the screen. I learned how to make a timer with this project and leanred how to make a function that checks if 2 cards that were flipped have the smae value and if they dont flip them back over again. I also learned how to make it so that only 2 cards can get flipped and that the user can't mess up the website at all. Overall, it was a very fun project and enjoyed learning how to make it function. 
           </div>
         </div>
       </div>
@@ -107,7 +107,7 @@ const page = () => {
 
         <div data-aos="zoom-in" data-aos-duration="2000">
           <div className='text-2xl bg-black p-5 w-3/4 rounded-2xl transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1 mt-35'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nostrum exercitationem assumenda, illum est atque omnis asperiores inventore. Repellat earum ullam consectetur vero, sunt voluptatum magni accusantium expedita a esse doloremque 
+            This also another javascript project I did that during my 1st year of West-MEC. I made functions that revoled around checking 
           </div>
         </div>
       </div>
