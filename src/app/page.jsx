@@ -19,10 +19,10 @@ export default function Home() {
 
     <div className="marquee font-bold">
       <div className="marquee__innerv2 text-[#D8B4A6]" aria-hidden="true">
-        <span>Future Software Engineer • </span>
-        <span>Future Software Engineer • </span>
-        <span>Future Software Engineer • </span>
-        <span>Future Software Engineer • </span>
+        <span>Crafting code with creativity • </span>
+        <span>Crafting code with creativity • </span>
+        <span>Crafting code with creativity • </span>
+        <span>Crafting code with creativity • </span>
       </div>
     </div>
       

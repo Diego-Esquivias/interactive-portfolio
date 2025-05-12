@@ -8,19 +8,19 @@ const aboutMe = () => {
 
     <div className="marquee font-bold">
       <div className="marquee__inner " aria-hidden="true">
-        <span>About Me • </span>
-        <span>About Me • </span>
-        <span>About Me • </span>
-        <span>About Me • </span>
+        <span> Designer. Developer. Doer.</span>
+        <span> Designer. Developer. Doer.</span>
+        <span> Designer. Developer. Doer.</span>
+        <span> Designer. Developer. Doer.</span>
       </div>
     </div>
 
     <div className="marquee font-bold">
       <div className="marquee__innerv2 text-[#D8B4A6]" aria-hidden="true">
-        <span>Get to Know Me • </span>
-        <span>Get to Know Me • </span>
-        <span>Get to Know Me • </span>
-        <span>Get to Know Me • </span>
+        <span> Building with purpose, growing with passion.</span>
+        <span> Building with purpose, growing with passion.</span>
+        <span> Building with purpose, growing with passion.</span>
+        <span> Building with purpose, growing with passion.</span>
       </div>
     </div>
 

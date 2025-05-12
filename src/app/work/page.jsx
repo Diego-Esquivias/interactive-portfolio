@@ -7,23 +7,19 @@ const page = () => {
     <>
     <div className="marquee font-bold">
       <div className="marquee__inner " aria-hidden="true">
-        <span>My Work • </span>
-        <span>My Work • </span>
-        <span>My Work • </span>
-        <span>My Work • </span>
-        <span>My Work • </span>
-        <span>My Work • </span>
+        <span>Creative Projects & Code in Motion • </span>
+        <span>Creative Projects & Code in Motion • </span>
+        <span>Creative Projects & Code in Motion • </span>
+        <span>Creative Projects & Code in Motion • </span>
       </div>
     </div>
 
     <div className="marquee font-bold">
       <div className="marquee__innerv2 text-[#D8B4A6]" aria-hidden="true">
-        <span>Past Projects • </span>
-        <span>Past Projects • </span>
-        <span>Past Projects • </span>
-        <span>Past Projects • </span>
-        <span>Past Projects • </span>
-        <span>Past Projects • </span>
+        <span>Real Work. Real Results. </span>
+        <span>Real Work. Real Results. </span>
+        <span>Real Work. Real Results. </span>
+        <span>Real Work. Real Results. </span>
       </div>
     </div>
 
@@ -107,7 +103,7 @@ const page = () => {
 
         <div data-aos="zoom-in" data-aos-duration="2000">
           <div className='text-2xl bg-black p-5 w-3/4 rounded-2xl transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1 mt-35 font-bold'>
-            This also another javascript project I did that during my 1st year of West-MEC. I made functions that revoled around checking 
+            This is another JavaScript project I completed during my first year at West-MEC. The application includes a turn-based system that tracks whose turn it is and the number of moves made. It features winning logic for both players, displaying a message when a player wins. Additionally, the program checks for tie conditions. At the end of each game, users have the option to restart or exit.
           </div>
         </div>
       </div>
@@ -127,7 +123,7 @@ const page = () => {
 
         <div className='grid justify-items-end' data-aos="zoom-in" data-aos-duration="2000">
           <div className='text-2xl bg-black p-5 w-3/4 rounded-2xl transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v2-move shadow-v2 mt-35 mb-10 font-bold'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nostrum exercitationem assumenda, illum est atque omnis asperiores inventore. Repellat earum ullam consectetur vero, sunt voluptatum magni accusantium expedita a esse doloremque 
+            This is a multiple-choice food quiz built with React, featuring hover animations for enhanced user interaction. The application provides instant feedback on each answer, indicating whether it is correct or incorrect, and revealing the correct answer when needed. It also tracks the number of correct and incorrect responses. The project is designed to be reusable, making it a flexible template for creating future study quizzes.
           </div>
         </div>
       </div>
@@ -136,8 +132,8 @@ const page = () => {
         <Image
         src={"https://res.cloudinary.com/dom4vyzw7/image/upload/v1746132992/quizgame_fbbvbt.png"}
         alt="placeholder Image"
-        width={600}
-        height={600}
+        width={650}
+        height={650}
         className="m-auto rounded-2xl shadow-glowv2 transform transition-all duration-300 ease-in-out hover:shadow-glowv2-move hover:scale-105"
         />
       </Link>
@@ -152,8 +148,8 @@ const page = () => {
         <Image
         src={"https://res.cloudinary.com/dom4vyzw7/image/upload/v1746133865/mazegame_rod3fy.png"}
         alt="placeholder Image"
-        width={500}
-        height={500}
+        width={550}
+        height={550}
         className="m-auto rounded-2xl shadow-glow transform transition-all duration-300 ease-in-out hover:shadow-glow-move hover:scale-105"
         />
       </Link>
@@ -166,7 +162,7 @@ const page = () => {
 
         <div data-aos="zoom-in" data-aos-duration="2000">
           <div className='text-2xl bg-black p-5 w-3/4 rounded-2xl transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1 mt-35 font-bold'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nostrum exercitationem assumenda, illum est atque omnis asperiores inventore. Repellat earum ullam consectetur vero, sunt voluptatum magni accusantium expedita a esse doloremque 
+            This game was developed in collaboration with Conner Ehly. It challenges players to navigate an invisible maze, using a laser—activated by holding the Shift key—to detect walls and obstacles. The goal is to reach a visible exit, which then reveals a second exit required to win the game. A point system is implemented to track player performance and encourage strategic exploration.
           </div>
         </div>
       </div>
