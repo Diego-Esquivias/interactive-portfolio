@@ -132,7 +132,7 @@ const aboutMe = () => {
         className="m-auto rounded-2xl"
         />
         <br />
-        Music
+        Comics
       </div>
     </div>
 
