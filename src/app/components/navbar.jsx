@@ -10,10 +10,10 @@ const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
 return (
     <>
-    <div className="sticky top-0 flex justify-between items-center text-4xl px-4 font-extrabold py-4 bg-black z-1 border-b-2 border-b-gray-800">
+    <div className="sticky top-0 flex justify-between items-center text-xl px-4 font-extrabold py-4 bg-black z-1 border-b-2 border-b-gray-800">
         <h1>•</h1>
         <div>
-            <h1 className="text-[#D8B4A6]">Diego Esquivias</h1>
+            <h1 className="text-[#D8B4A6] sm:text-5xl">Diego Esquivias</h1>
         </div>
         <HiOutlineMenu 
         className="cursor-pointer hover:text-[#D8B4A6]" 

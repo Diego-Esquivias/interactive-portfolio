@@ -28,8 +28,7 @@ export default function Home() {
       
     <hr className='border-gray-800 mt-10 mb-15' />
 
-      {/* Place for the image Scroll thing */}
-      <div className="w-3/4 mx-auto mt-5" data-aos="flip-up" data-aos-duration="2000">
+      <div className="w-3/4 mx-auto mt-2 sm:mt-5" data-aos="flip-up" data-aos-duration="2000">
         <Image
         src={"https://res.cloudinary.com/dom4vyzw7/image/upload/v1746477503/IMG_4638_jindgz.jpg"}
         alt="placeholder Image"
@@ -39,10 +38,10 @@ export default function Home() {
         />
       </div>
 
-      <div className="grid grid-cols-2 grid-rows-2 gap-10 items-center justify-items-center mt-10" data-aos="zoom-in-left" data-aos-duration="2000">
+      <div className="grid grid-cols-1 grid-rows-4 items-center justify-items-center mt-2 sm:mt-10 sm:grid-cols-2 sm:grid-rows-2 sm:gap-10 order-2" data-aos="zoom-in-left" data-aos-duration="2000">
         <div className="text-center w-3/4">
-          <h1 className="text-5xl font-extrabold text-[#D8B4A6]">About Me</h1>
-          <div className="text-xl font-bold text-center p-5 rounded-2xl mt-10 transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1">
+          <h1 className="text-3xl sm:text-5xl font-extrabold text-[#D8B4A6]">About Me</h1>
+          <div className="text-sm sm:text-xl font-bold text-center p-5 rounded-2xl mt-2 sm:mt-10 transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1">
             <p>Hi, I'm Diego, a passionate web developer with a focus on creating intuitive and dynamic user experiences. I specialize in front-end development, working with modern tools like React, JavaScript, Tailwind, and CSS to build responsive, user-friendly websites.</p>
             <br />
             <p>What excites me the most is using my skills to solve real-world problems and bring ideas to life through code. When I'm not working on web projects, you can find me playing video games, reading comics, or spending time with people I love.</p>
@@ -51,7 +50,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div data-aos="flip-left" data-aos-duration="2000">
+        <div data-aos="flip-left" data-aos-duration="2000" className="order-1">
           <Image
           src={"https://res.cloudinary.com/dom4vyzw7/image/upload/v1746828569/IMG_4643_z9ijlb.jpg"}
           alt="placeholder Image"
@@ -62,7 +61,7 @@ export default function Home() {
         </div>
 
         {/* Education Section */}
-        <div data-aos="flip-right" data-aos-duration="2000">
+        <div data-aos="flip-right" data-aos-duration="2000" className="order-3">
           <Image
           src={"https://res.cloudinary.com/dom4vyzw7/image/upload/v1746826580/IMG_4835_qovvyc_c_crop_w_3024_h_2500_gjkh4s.png"}
           alt="placeholder Image"
@@ -72,9 +71,9 @@ export default function Home() {
           />
         </div>
 
-        <div className="text-center w-3/4" data-aos="zoom-in-left" data-aos-duration="2000">
-          <h1 className="text-5xl font-extrabold text-[#D8B4A6]">Education</h1>
-          <div className="text-xl font-bold text-center p-5 rounded-2xl mt-10 transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1">
+        <div className="text-center w-3/4 order-4" data-aos="zoom-in-left" data-aos-duration="2000">
+          <h1 className="text-3xl sm:text-5xl font-extrabold text-[#D8B4A6]">Education</h1>
+          <div className="text-sm sm:text-xl font-bold text-center p-5 rounded-2xl mt-2 sm:mt-10 transform transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-v1-move shadow-v1">
             <p>I spent four years at Sunnyslope High School, where I gained valuable knowledge and skills that will support my future academic and career goals. During my time there, I explored subjects that sparked my interest, including AP Computer Science Principles, AP Precalculus, and various coding-related courses.
             </ p>
             <br />
